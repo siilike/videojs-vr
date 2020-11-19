@@ -4,9 +4,9 @@ const replace = require('./rollup-replace');
 // see https://github.com/videojs/videojs-generate-rollup-config
 // for options
 const options = {
-  primedPlugins(defaults) {
-    return Object.assign(defaults, {replace});
-  },
+//  primedPlugins(defaults) {
+//    return Object.assign(defaults, {replace});
+//  },
   plugins(defaults) {
 
     // add replace just after json for each build

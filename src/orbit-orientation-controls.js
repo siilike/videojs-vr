@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import OrbitControls from 'three/examples/js/controls/OrbitControls.js';
-import DeviceOrientationControls from 'three/examples/js/controls/DeviceOrientationControls.js';
+import OrbitControls from './three/controls/OrbitControls.js';
+import DeviceOrientationControls from './three/controls/DeviceOrientationControls.js';
 
 /**
  * Convert a quaternion to an angle

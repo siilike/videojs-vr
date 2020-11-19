@@ -80,9 +80,11 @@
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "global": "^4.4.0",
-    "three": "0.93.0",
-    "video.js": "^6 || ^7",
     "webvr-polyfill": "0.10.6"
+  },
+  "peerDependencies": {
+    "three": "0.93.0",
+    "video.js": "^6 || ^7"
   },
   "devDependencies": {
     "@videojs/generator-helpers": "~1.2.0",
